@@ -1,15 +1,25 @@
 {
   "name": "starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "sass": "^1.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baal-Marduk/CssCourse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baal-Marduk/CssCourse/issues"
+  },
+  "homepage": "https://github.com/Baal-Marduk/CssCourse#readme",
+  "description": ""
 }
