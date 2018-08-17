@@ -3,21 +3,26 @@
 @import "abstracts/variables";
 
 
-@import "base/_base";
-@import "base/_animations";
-@import "base/_typography";
-@import "base/_utilities";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
 
-@import "layout/_header";
-@import "layout/_grid";
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
 
-@import "components/_buttons.scss";
-@import "components/composition.scss";
+@import "components/buttons";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
+@import "components/popup";
 
-@import "pages/_home";
-
-
-
+@import "pages/home";
 
 
 
